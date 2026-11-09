@@ -29,3 +29,22 @@ Formato (EARS): "Cuando se cierre una atención o servicio, el sistema deberá g
 
 Listado de consultas
 
+Consulta Simple: Listar todos los médicos activos mostrando su nombre, apellido y el nombre de su especialidad correspondiente, ordenados alfabéticamente por apellido.
+
+Consulta Simple: Obtener todas las habitaciones de tipo 'UCI' o 'Privada' que se encuentren actualmente con estado 'Disponible'.
+
+Consulta Simple: Mostrar el listado de todos los medicamentos cuyo stock actual sea menor a 50 unidades, ordenados de menor a mayor stock.
+
+Consulta Intermedia: Listar todas las citas médicas programadas (con estado 'Programada') indicando el nombre y apellido del paciente, el nombre y apellido del médico y la fecha/hora de la cita.
+
+Consulta Intermedia: Obtener el historial médico completo de un paciente específico (filtrando por su ID), mostrando fecha de registro, diagnóstico, y los datos del médico que lo atendió.
+
+Consulta Intermedia: Consultar todas las facturas emitidas que posean un estado de pago 'Pendiente', mostrando el nombre del paciente, el monto total y la fecha de emisión.
+
+Consulta Avanzada: Contar la cantidad total de médicos que existen en cada especialidad, mostrando el nombre de la especialidad y el total de profesionales.
+
+Consulta Avanzada: Obtener el listado de los 3 medicamentos más recetados (sumando la cantidad total solicitada en Recetas_Detalle), ordenados de mayor a menor cantidad.
+
+Consulta Avanzada: Calcular el monto total recaudado por cada método de pago considerando únicamente las facturas que se encuentren con estado 'Pagado'.
+
+Consulta Avanzada: Obtener un reporte completo de las recetas emitidas en los historiales médicos, mostrando el nombre del paciente, el medicamento recetado, la cantidad y las instrucciones de la dosis.
